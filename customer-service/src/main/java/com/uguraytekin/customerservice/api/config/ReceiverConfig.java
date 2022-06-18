@@ -22,7 +22,7 @@ public class ReceiverConfig {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ReceiverConfig.class);
 
-    @Value("${spring.kafka.bootstrap-servers}")
+    @Value("localhost:9092")
     private String bootstrapServers;
 
     @Bean

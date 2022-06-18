@@ -16,7 +16,7 @@ import java.util.Map;
 @Configuration
 public class SenderConfig {
 
-  @Value("${spring.kafka.bootstrap-servers}")
+  @Value("localhost:9092")
   private String bootstrapServers;
 
   @Bean

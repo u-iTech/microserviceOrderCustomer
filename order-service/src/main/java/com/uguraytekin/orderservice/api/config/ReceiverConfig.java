@@ -18,7 +18,7 @@ import java.util.Map;
 @EnableKafka
 public class ReceiverConfig {
 
-    @Value("${spring.kafka.bootstrap-servers}")
+    @Value("localhost:9092")
     private String bootstrapServers;
 
     @Bean
